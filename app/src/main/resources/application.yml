@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: pro
+
+
+
+hust:
+  host: 110.42.180.40
+  url: localhost

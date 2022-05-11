@@ -1,0 +1,180 @@
+# 配置端口
+server:
+  port: 8085
+
+  servlet:
+    # 设置springboot项目访问路径
+    context-path: /hjgz/api
+    # session 失效时间
+    session:
+      timeout: 30m
+knife4j:
+  enable: true
+  documents:
+    -
+      group: 2.X版本
+      name: 接口签名
+#      markdown文件路径
+      locations: classpath:markdowns/*
+#      前端Ui的个性化配置属性
+  setting:
+    swaggerModelName: 实体类列表
+#    如果开启，后端变化后Ui界面会存在小蓝点
+    enableVersion: true
+    enableHost: false
+#    自定义主页内容
+    enableHomeCustom: false
+    homeCustomLocation: classpath:markdowns/home.md
+#    自定义底部Footer的内容
+    enableFooter: false
+    enableFooterCustom: true
+    footerCustomContent:  Copyright  2022-[locker](https://github.com/7914-ve)
+#    是否开启一个默认的跨域配置,该功能配合自定义Host使用
+  cors: false
+  basic:
+#    是否开启密码访问
+    enable: false
+    username: test
+    password: 123456
+# 配置mysql数据库
+spring:
+  # 解决 SpringBoot 2.6.0 禁止循环依赖
+  main:
+    allow-circular-references: true
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://124.221.119.149:3306/discuz?serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    username: root
+    password: ZnouGrp5sAql5PNj
+    hikari:
+      minimum-idle: 5
+      # 空闲连接存活最大时间，默认600000（10分钟）
+      idle-timeout: 180000
+      # 连接池最大连接数，默认是10
+      maximum-pool-size: 10
+      # 此属性控制从池返回的连接的默认自动提交行为,默认值：true
+      auto-commit: true
+      # 连接池名称
+      pool-name: MyHikariCP
+      # 此属性控制池中连接的最长生命周期，值0表示无限生命周期，默认1800000即30分钟
+      max-lifetime: 1800000
+      # 数据库连接超时时间,默认30秒，即30000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+  # redis配置
+  redis:
+    host: localhost
+    port: 6379
+    password: redis7914
+
+  # mq配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    listener:
+      simple:
+        retry:
+          enabled: true
+          max-attempts: 3 #最大重试次数
+          initial-interval: 3000 #重试间隔时间（单位毫秒）
+
+  # es配置 若搜索模式为mysql可删除
+  elasticsearch:
+    rest:
+      uris: localhost:9200
+
+  # 邮箱配置
+  mail:
+    host: smtp.qq.com
+    # 邮箱 647166282@qq.com
+    username: 647166282@qq.com
+    # 16位授权码 不是邮箱密码
+    password: culyqmzvmppabccd
+    default-encoding: UTF-8
+    port: 587
+    properties:
+      mail:
+      smtp:
+      auth: true
+      socketFactory:
+      class: javax.net.ssl.SSLSocketFactory
+  # 上传图片大小限制
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size:  100MB
+# 配置MybatisPlus
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 查表时自动驼峰转下划线
+    map-underscore-to-camel-case: true
+#  global-config:
+#    db-config:
+#      logic-delete-value: 1
+#      logic-not-delete-value: 0
+#      logic-delete-field:
+
+## Mybatis SQL 打印(方法接口所在的包，不是Mapper.xml所在的包)
+logging:
+  level:
+    com.ve.locker.dao: debug
+  ###指定log4j.properties配置文件路径
+  #config: classpath:log/log4j.properties
+  config: classpath:logxml/logback.xml
+
+# jwt令牌 自定义属性，所以报黄
+jwt:
+  # JWT存储的请求头
+  # 正常前端请求 tokenHeader：Authorization 是key tokenHead：Bearer是它的 value 加上空格然后jwt令牌，组成一个请求
+  tokenHeader: Authorization
+  # JWT 加解密使用的密钥
+  secret: jwt-secret
+  # JWT的超期限时间（60*60*24）
+  expiration: 604800
+  # JWT 负载中拿到开头
+  tokenHead: Bearer
+
+
+# 搜索模式 可选 elasticsearch或mysql
+search:
+  mode: mysql
+
+# 上传模式 可选 oss或local  （/一定不能去！！！）
+upload:
+  mode: oss
+  local:
+    # nginx映射本地文件路径，无域名则为 ip +端口
+    url: https://ve77.cn/
+    # 本地文件存储路径，不加/则为当前目录下
+    path: blog/upload/
+
+  oss:
+#    没钱买https
+    url: https://static.ve77.cn/blog/
+    endpoint: oss-cn-beijing.aliyuncs.com
+    bucketName: veport
+    accessKeyId: LTAI5tP7D8BmkL9py6zunshJ
+    accessKeySecret: lsLhg3GP8By9qLpC9e29Zaxz8xG6ok
+
+# 网站前台域名（邮件通知用）
+website:
+  url: http://localhost/blog
+
+#第三方配置信息
+qq:
+  app-id: 101993700
+  check-token-url: https://graph.qq.com/oauth2.0/me?access_token={access_token}
+  user-info-url: https://graph.qq.com/user/get_user_info?openid={openid}&access_token={access_token}&oauth_consumer_key={oauth_consumer_key}
+
+weibo:
+  app-id: 2658270041
+  app-secret: 29a13e1454d7bff1c2a255185454bb86
+  grant-type: authorization_code
+  redirect-url: https://ve77.cn/blog/oauth/login/weibo
+  access-token-url: https://api.weibo.com/oauth2/access_token
+  user-info-url: https://api.weibo.com/2/users/show.json?uid={uid}&access_token={access_token}

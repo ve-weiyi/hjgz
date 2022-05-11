@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.hjgz</groupId>
+        <artifactId>hjgz</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>lib-application</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>lib-application</name>
+    <description>lib-application</description>
+
+
+    <dependencies>
+
+
+        <!--        &lt;!&ndash; swagger2 依赖 快速编写使用文档和API接口文档&ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>io.springfox</groupId>-->
+        <!--            <artifactId>springfox-swagger2</artifactId>-->
+        <!--            <version>2.7.0</version>-->
+        <!--        </dependency>-->
+        <!--        &lt;!&ndash; Swagger第三方ui依赖 &ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>com.github.xiaoymin</groupId>-->
+        <!--            <artifactId>swagger-bootstrap-ui</artifactId>-->
+        <!--            <version>1.9.6</version>-->
+        <!--        </dependency>-->
+        <!--        &lt;!&ndash; swagger2markup 相关依赖 &ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>io.github.swagger2markup</groupId>-->
+        <!--            <artifactId>swagger2markup</artifactId>-->
+        <!--            <version>1.3.3</version>-->
+        <!--        </dependency>-->
+        <!--        &lt;!&ndash;生成Swagger2静态文档依赖 在test启动&ndash;&gt;-->
+        <!--        &lt;!&ndash;解决可能会导致的问题：  java.lang.NoSuchMethodError:      &ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>io.swagger</groupId>-->
+        <!--            <artifactId>swagger-core</artifactId>-->
+        <!--            <version>1.5.21</version>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>io.swagger</groupId>-->
+        <!--            <artifactId>swagger-models</artifactId>-->
+        <!--            <version>1.5.21</version>-->
+        <!--        </dependency>-->
+    </dependencies>
+
+
+</project>
