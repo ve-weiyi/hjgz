@@ -18,6 +18,8 @@ import com.ve.locker.enums.LoginTypeEnum;
 import com.ve.locker.enums.RoleEnum;
 import com.ve.locker.enums.UserAreaTypeEnum;
 import com.ve.locker.exception.BizException;
+import com.ve.locker.service.AppInfoService;
+import com.ve.locker.service.RedisService;
 import com.ve.locker.service.UserAuthService;
 import com.ve.locker.strategy.context.SocialLoginStrategyContext;
 import com.ve.locker.util.*;

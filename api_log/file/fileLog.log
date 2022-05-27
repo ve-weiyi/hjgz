@@ -981,3 +981,409 @@
 2022-05-27 14:43:54,779 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'applicationTaskExecutor'
 2022-05-27 14:43:54,782 INFO (HikariDataSource.java:350)- MyHikariCP - Shutdown initiated...
 2022-05-27 14:43:54,794 INFO (HikariDataSource.java:352)- MyHikariCP - Shutdown completed.
+2022-05-27 15:19:37,461 INFO (Version.java:21)- HV000001: Hibernate Validator 6.2.0.Final
+2022-05-27 15:19:37,483 INFO (StartupInfoLogger.java:55)- Starting AppApplication using Java 1.8.0_311 on BadMac.local with PID 5230 (/Users/weiyi/ProjectsDocument/IdeaProjects/hjgz/app/target/classes started by weiyi in /Users/weiyi/ProjectsDocument/IdeaProjects/hjgz)
+2022-05-27 15:19:37,484 INFO (SpringApplication.java:664)- The following profiles are active: pro
+2022-05-27 15:19:37,593 INFO (DeferredLog.java:255)- The Class-Path manifest attribute in /Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2022-05-27 15:19:37,594 INFO (DeferredLog.java:255)- The Class-Path manifest attribute in /Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2022-05-27 15:19:37,595 INFO (DeferredLog.java:255)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-27 15:19:37,595 INFO (DeferredLog.java:255)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-27 15:19:38,817 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:19:38,820 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-05-27 15:19:38,845 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 22 ms. Found 0 Elasticsearch repository interfaces.
+2022-05-27 15:19:38,853 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:19:38,854 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-05-27 15:19:38,862 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 8 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-05-27 15:19:38,890 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:19:38,892 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-27 15:19:38,904 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-05-27 15:19:39,792 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8085 (https)
+2022-05-27 15:19:39,807 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:19:39,808 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-27 15:19:39,808 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-27 15:19:39,894 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-27 15:19:39,895 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 2299 ms
+2022-05-27 15:19:40,001 WARN (OpenApiExtensionResolver.java:144)- (Ignores) Failed to read Markdown files,Error Message:class path resource [markdowns/] cannot be resolved to URL because it does not exist 
+2022-05-27 15:19:40,509 WARN (SensitiveUtils.java:53)- 加载敏感词文件失败: null
+2022-05-27 15:19:41,545 INFO (WebMvcPropertySourcedRequestMappingHandlerMapping.java:69)- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-05-27 15:19:41,671 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-27 15:19:41,712 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2022-05-27 15:19:42,413 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,415 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,415 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,415 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,415 WARN (CustomConversions.java:270)- Registering converter from interface org.springframework.data.elasticsearch.core.geo.GeoJson to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,416 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to interface org.springframework.data.elasticsearch.core.geo.GeoJson as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,416 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,416 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,416 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,416 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,416 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,416 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,416 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,417 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,417 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,417 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,418 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,418 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,418 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,418 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:19:42,472 INFO (VersionInfo.java:62)- Version Spring Data Elasticsearch: 4.1.2
+2022-05-27 15:19:42,473 INFO (VersionInfo.java:63)- Version Elasticsearch Client in build: 7.9.3
+2022-05-27 15:19:42,473 INFO (VersionInfo.java:64)- Version Elasticsearch Client used: 7.9.3
+2022-05-27 15:19:42,602 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'taskScheduler'
+2022-05-27 15:19:42,729 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:19:42,768 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8085 (https) with context path '/hjgz/api'
+2022-05-27 15:19:42,773 INFO (DocumentationPluginsBootstrapper.java:93)- Documentation plugins bootstrapped
+2022-05-27 15:19:42,777 INFO (AbstractDocumentationPluginsBootstrapper.java:79)- Found 1 custom documentation plugin(s)
+2022-05-27 15:19:42,817 INFO (ApiListingReferenceScanner.java:44)- Scanning for api listing references
+2022-05-27 15:19:42,979 INFO (StartupInfoLogger.java:61)- Started AppApplication in 6.152 seconds (JVM running for 7.201)
+2022-05-27 15:20:07,383 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-27 15:20:07,386 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-05-27 15:20:07,393 INFO (FrameworkServlet.java:547)- Completed initialization in 7 ms
+2022-05-27 15:20:18,128 INFO (HikariDataSource.java:110)- MyHikariCP - Starting...
+2022-05-27 15:20:18,999 INFO (HikariDataSource.java:123)- MyHikariCP - Start completed.
+2022-05-27 15:20:19,190 INFO (LogUtil.java:34)- exceptionHandler(GlobalExceptionHandler.java:54) -->> PUT
+2022-05-27 15:20:19,190 INFO (LogUtil.java:34)- exceptionHandler(GlobalExceptionHandler.java:55) -->> /hjgz/api
+2022-05-27 15:20:19,191 INFO (LogUtil.java:34)- exceptionHandler(GlobalExceptionHandler.java:56) -->> localhost
+2022-05-27 15:20:19,229 WARN (AbstractHandlerExceptionResolver.java:207)- Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'yesterday_exp' in 'field list'
+### The error may exist in com/ve/locker/dao/LevelMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT id,exp,yesterday_exp,ip_address,ip_source,sign_in_time FROM pre_user_level WHERE id=?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'yesterday_exp' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'yesterday_exp' in 'field list']
+2022-05-27 15:21:35,951 INFO (LogUtil.java:34)- signIn(LevelController.java:74) -->> Level(id=1, exp=174, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:35.729)
+2022-05-27 15:21:47,832 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:104) -->> Level(id=1, exp=177, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:36)
+2022-05-27 15:21:50,135 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:104) -->> Level(id=1, exp=180, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:36)
+2022-05-27 15:21:50,878 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:104) -->> Level(id=1, exp=183, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:36)
+2022-05-27 15:21:51,511 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:104) -->> Level(id=1, exp=186, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:36)
+2022-05-27 15:21:52,294 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:104) -->> Level(id=1, exp=189, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:36)
+2022-05-27 15:21:53,046 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:104) -->> Level(id=1, exp=192, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:36)
+2022-05-27 15:21:53,747 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:104) -->> Level(id=1, exp=195, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:36)
+2022-05-27 15:21:54,337 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:104) -->> Level(id=1, exp=198, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:36)
+2022-05-27 15:21:55,045 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:104) -->> Level(id=1, exp=201, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:36)
+2022-05-27 15:21:55,772 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:104) -->> Level(id=1, exp=204, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:36)
+2022-05-27 15:21:58,649 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:104) -->> Level(id=1, exp=234, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:36)
+2022-05-27 15:25:12,416 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'taskScheduler'
+2022-05-27 15:25:12,428 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-27 15:25:12,431 INFO (HikariDataSource.java:350)- MyHikariCP - Shutdown initiated...
+2022-05-27 15:25:12,442 INFO (HikariDataSource.java:352)- MyHikariCP - Shutdown completed.
+2022-05-27 15:25:20,098 INFO (Version.java:21)- HV000001: Hibernate Validator 6.2.0.Final
+2022-05-27 15:25:20,109 INFO (StartupInfoLogger.java:55)- Starting AppApplication using Java 1.8.0_311 on BadMac.local with PID 6390 (/Users/weiyi/ProjectsDocument/IdeaProjects/hjgz/app/target/classes started by weiyi in /Users/weiyi/ProjectsDocument/IdeaProjects/hjgz)
+2022-05-27 15:25:20,109 INFO (SpringApplication.java:664)- The following profiles are active: pro
+2022-05-27 15:25:20,213 INFO (DeferredLog.java:255)- The Class-Path manifest attribute in /Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2022-05-27 15:25:20,214 INFO (DeferredLog.java:255)- The Class-Path manifest attribute in /Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2022-05-27 15:25:20,215 INFO (DeferredLog.java:255)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-27 15:25:20,215 INFO (DeferredLog.java:255)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-27 15:25:21,322 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:25:21,325 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-05-27 15:25:21,351 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 23 ms. Found 0 Elasticsearch repository interfaces.
+2022-05-27 15:25:21,359 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:25:21,361 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-05-27 15:25:21,367 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 5 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-05-27 15:25:21,390 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:25:21,392 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-27 15:25:21,407 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-05-27 15:25:22,183 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8085 (https)
+2022-05-27 15:25:22,191 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:25:22,193 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-27 15:25:22,193 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-27 15:25:22,260 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-27 15:25:22,261 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 2045 ms
+2022-05-27 15:25:22,354 WARN (OpenApiExtensionResolver.java:144)- (Ignores) Failed to read Markdown files,Error Message:class path resource [markdowns/] cannot be resolved to URL because it does not exist 
+2022-05-27 15:25:22,535 WARN (SensitiveUtils.java:53)- 加载敏感词文件失败: null
+2022-05-27 15:25:23,222 INFO (WebMvcPropertySourcedRequestMappingHandlerMapping.java:69)- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-05-27 15:25:23,346 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-27 15:25:23,384 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2022-05-27 15:25:23,968 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,971 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,971 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,972 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,972 WARN (CustomConversions.java:270)- Registering converter from interface org.springframework.data.elasticsearch.core.geo.GeoJson to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,972 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to interface org.springframework.data.elasticsearch.core.geo.GeoJson as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,972 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,972 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,972 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,973 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,973 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,973 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,973 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,973 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,973 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,973 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,973 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,974 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,974 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:23,974 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:25:24,019 INFO (VersionInfo.java:62)- Version Spring Data Elasticsearch: 4.1.2
+2022-05-27 15:25:24,020 INFO (VersionInfo.java:63)- Version Elasticsearch Client in build: 7.9.3
+2022-05-27 15:25:24,020 INFO (VersionInfo.java:64)- Version Elasticsearch Client used: 7.9.3
+2022-05-27 15:25:24,136 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'taskScheduler'
+2022-05-27 15:25:24,249 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:25:24,288 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8085 (https) with context path '/hjgz/api'
+2022-05-27 15:25:24,291 INFO (DocumentationPluginsBootstrapper.java:93)- Documentation plugins bootstrapped
+2022-05-27 15:25:24,296 INFO (AbstractDocumentationPluginsBootstrapper.java:79)- Found 1 custom documentation plugin(s)
+2022-05-27 15:25:24,338 INFO (ApiListingReferenceScanner.java:44)- Scanning for api listing references
+2022-05-27 15:25:24,613 INFO (StartupInfoLogger.java:61)- Started AppApplication in 5.183 seconds (JVM running for 6.285)
+2022-05-27 15:25:28,257 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-27 15:25:28,259 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-05-27 15:25:28,264 INFO (FrameworkServlet.java:547)- Completed initialization in 4 ms
+2022-05-27 15:25:28,391 INFO (HikariDataSource.java:110)- MyHikariCP - Starting...
+2022-05-27 15:25:29,055 INFO (HikariDataSource.java:123)- MyHikariCP - Start completed.
+2022-05-27 15:25:49,656 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:109) -->> Level(id=1, exp=201, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:36)
+2022-05-27 15:25:51,161 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:109) -->> Level(id=1, exp=211, yesterdayExp=171, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:21:36)
+2022-05-27 15:26:15,472 INFO (LogUtil.java:34)- signIn(LevelController.java:74) -->> Level(id=1, exp=214, yesterdayExp=211, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:26:15.285)
+2022-05-27 15:26:19,777 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:109) -->> Level(id=1, exp=244, yesterdayExp=211, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:26:15)
+2022-05-27 15:26:20,736 INFO (LogUtil.java:34)- addLevelExp(LevelController.java:109) -->> Level(id=1, exp=251, yesterdayExp=211, ipAddress=0:0:0:0:0:0:0:1, ipSource=, signInTime=2022-05-27T15:26:15)
+2022-05-27 15:26:24,137 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'taskScheduler'
+2022-05-27 15:26:24,146 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-27 15:26:24,149 INFO (HikariDataSource.java:350)- MyHikariCP - Shutdown initiated...
+2022-05-27 15:26:24,162 INFO (HikariDataSource.java:352)- MyHikariCP - Shutdown completed.
+2022-05-27 15:52:23,064 INFO (Version.java:21)- HV000001: Hibernate Validator 6.2.0.Final
+2022-05-27 15:52:23,080 INFO (StartupInfoLogger.java:55)- Starting AppApplication using Java 1.8.0_311 on BadMac.local with PID 12250 (/Users/weiyi/ProjectsDocument/IdeaProjects/hjgz/app/target/classes started by weiyi in /Users/weiyi/ProjectsDocument/IdeaProjects/hjgz)
+2022-05-27 15:52:23,081 INFO (SpringApplication.java:664)- The following profiles are active: pro
+2022-05-27 15:52:23,175 INFO (DeferredLog.java:255)- The Class-Path manifest attribute in /Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2022-05-27 15:52:23,176 INFO (DeferredLog.java:255)- The Class-Path manifest attribute in /Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2022-05-27 15:52:23,177 INFO (DeferredLog.java:255)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-27 15:52:23,177 INFO (DeferredLog.java:255)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-27 15:52:24,311 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:52:24,313 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-05-27 15:52:24,339 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 23 ms. Found 0 Elasticsearch repository interfaces.
+2022-05-27 15:52:24,348 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:52:24,349 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-05-27 15:52:24,357 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 7 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-05-27 15:52:24,382 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:52:24,383 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-27 15:52:24,394 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-05-27 15:52:25,202 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8085 (https)
+2022-05-27 15:52:25,213 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:52:25,215 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-27 15:52:25,215 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-27 15:52:25,291 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-27 15:52:25,292 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 2115 ms
+2022-05-27 15:52:25,399 WARN (OpenApiExtensionResolver.java:144)- (Ignores) Failed to read Markdown files,Error Message:class path resource [markdowns/] cannot be resolved to URL because it does not exist 
+2022-05-27 15:52:25,607 WARN (SensitiveUtils.java:53)- 加载敏感词文件失败: null
+2022-05-27 15:52:26,352 INFO (WebMvcPropertySourcedRequestMappingHandlerMapping.java:69)- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-05-27 15:52:26,485 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-27 15:52:26,525 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2022-05-27 15:52:27,198 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,201 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,201 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,201 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,201 WARN (CustomConversions.java:270)- Registering converter from interface org.springframework.data.elasticsearch.core.geo.GeoJson to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,201 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to interface org.springframework.data.elasticsearch.core.geo.GeoJson as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,201 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,202 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,202 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,202 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,202 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,202 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,202 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,202 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,202 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,203 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,203 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,203 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,203 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,203 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:52:27,256 INFO (VersionInfo.java:62)- Version Spring Data Elasticsearch: 4.1.2
+2022-05-27 15:52:27,257 INFO (VersionInfo.java:63)- Version Elasticsearch Client in build: 7.9.3
+2022-05-27 15:52:27,257 INFO (VersionInfo.java:64)- Version Elasticsearch Client used: 7.9.3
+2022-05-27 15:52:27,385 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'taskScheduler'
+2022-05-27 15:52:27,506 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:52:27,509 WARN (AbstractApplicationContext.java:596)- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8085 is already in use
+2022-05-27 15:52:27,513 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'taskScheduler'
+2022-05-27 15:52:27,522 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-27 15:52:27,560 INFO (DirectJDKLog.java:173)- Pausing ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:52:27,561 INFO (DirectJDKLog.java:173)- Stopping service [Tomcat]
+2022-05-27 15:52:27,566 INFO (DirectJDKLog.java:173)- Stopping ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:52:27,567 INFO (DirectJDKLog.java:173)- Destroying ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:52:27,580 INFO (ConditionEvaluationReportLoggingListener.java:136)- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-27 15:52:27,598 ERROR (LoggingFailureAnalysisReporter.java:40)- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8085 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+
+2022-05-27 15:53:08,802 INFO (Version.java:21)- HV000001: Hibernate Validator 6.2.0.Final
+2022-05-27 15:53:08,815 INFO (StartupInfoLogger.java:55)- Starting AppApplication using Java 1.8.0_311 on BadMac.local with PID 12446 (/Users/weiyi/ProjectsDocument/IdeaProjects/hjgz/app/target/classes started by weiyi in /Users/weiyi/ProjectsDocument/IdeaProjects/hjgz)
+2022-05-27 15:53:08,816 INFO (SpringApplication.java:664)- The following profiles are active: pro
+2022-05-27 15:53:08,930 INFO (DeferredLog.java:255)- The Class-Path manifest attribute in /Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar referenced one or more files that do not exist: file:/Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-core.jar
+2022-05-27 15:53:08,931 INFO (DeferredLog.java:255)- The Class-Path manifest attribute in /Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/Users/weiyi/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-api.jar
+2022-05-27 15:53:08,931 INFO (DeferredLog.java:255)- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-27 15:53:08,931 INFO (DeferredLog.java:255)- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-27 15:53:10,086 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:53:10,089 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-05-27 15:53:10,116 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 23 ms. Found 0 Elasticsearch repository interfaces.
+2022-05-27 15:53:10,124 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:53:10,126 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-05-27 15:53:10,134 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 7 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-05-27 15:53:10,161 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:53:10,162 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-27 15:53:10,174 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-05-27 15:53:10,956 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8085 (https)
+2022-05-27 15:53:10,966 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:53:10,967 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-27 15:53:10,968 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-27 15:53:11,037 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-27 15:53:11,039 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 2107 ms
+2022-05-27 15:53:11,142 WARN (OpenApiExtensionResolver.java:144)- (Ignores) Failed to read Markdown files,Error Message:class path resource [markdowns/] cannot be resolved to URL because it does not exist 
+2022-05-27 15:53:11,336 WARN (SensitiveUtils.java:53)- 加载敏感词文件失败: null
+2022-05-27 15:53:12,107 INFO (WebMvcPropertySourcedRequestMappingHandlerMapping.java:69)- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-05-27 15:53:12,225 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-27 15:53:12,267 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2022-05-27 15:53:12,898 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,899 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,900 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,900 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,900 WARN (CustomConversions.java:270)- Registering converter from interface org.springframework.data.elasticsearch.core.geo.GeoJson to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,900 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to interface org.springframework.data.elasticsearch.core.geo.GeoJson as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,900 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,900 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,901 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,901 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,901 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,901 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,901 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,902 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,902 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,902 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,902 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,902 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,902 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,902 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:12,955 INFO (VersionInfo.java:62)- Version Spring Data Elasticsearch: 4.1.2
+2022-05-27 15:53:12,955 INFO (VersionInfo.java:63)- Version Elasticsearch Client in build: 7.9.3
+2022-05-27 15:53:12,956 INFO (VersionInfo.java:64)- Version Elasticsearch Client used: 7.9.3
+2022-05-27 15:53:13,092 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'taskScheduler'
+2022-05-27 15:53:13,223 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:53:13,263 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8085 (https) with context path '/hjgz/api'
+2022-05-27 15:53:13,268 INFO (DocumentationPluginsBootstrapper.java:93)- Documentation plugins bootstrapped
+2022-05-27 15:53:13,273 INFO (AbstractDocumentationPluginsBootstrapper.java:79)- Found 1 custom documentation plugin(s)
+2022-05-27 15:53:13,313 INFO (ApiListingReferenceScanner.java:44)- Scanning for api listing references
+2022-05-27 15:53:13,580 INFO (StartupInfoLogger.java:61)- Started AppApplication in 5.284 seconds (JVM running for 5.991)
+2022-05-27 15:53:30,551 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-27 15:53:30,553 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-05-27 15:53:30,557 INFO (FrameworkServlet.java:547)- Completed initialization in 3 ms
+2022-05-27 15:53:38,709 INFO (HikariDataSource.java:110)- MyHikariCP - Starting...
+2022-05-27 15:53:39,439 INFO (HikariDataSource.java:123)- MyHikariCP - Start completed.
+2022-05-27 15:53:51,121 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'taskScheduler'
+2022-05-27 15:53:51,132 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-27 15:53:51,135 INFO (HikariDataSource.java:350)- MyHikariCP - Shutdown initiated...
+2022-05-27 15:53:51,148 INFO (HikariDataSource.java:352)- MyHikariCP - Shutdown completed.
+2022-05-27 15:53:51,567 INFO (StartupInfoLogger.java:55)- Starting AppApplication using Java 1.8.0_311 on BadMac.local with PID 12446 (/Users/weiyi/ProjectsDocument/IdeaProjects/hjgz/app/target/classes started by weiyi in /Users/weiyi/ProjectsDocument/IdeaProjects/hjgz)
+2022-05-27 15:53:51,570 INFO (SpringApplication.java:664)- The following profiles are active: pro
+2022-05-27 15:53:52,054 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:53:52,057 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-05-27 15:53:52,067 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 9 ms. Found 0 Elasticsearch repository interfaces.
+2022-05-27 15:53:52,069 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:53:52,069 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-05-27 15:53:52,072 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-05-27 15:53:52,080 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:53:52,080 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-27 15:53:52,085 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-05-27 15:53:52,298 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8085 (https)
+2022-05-27 15:53:52,300 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:53:52,302 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-27 15:53:52,302 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-27 15:53:52,313 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-27 15:53:52,314 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 731 ms
+2022-05-27 15:53:52,338 WARN (OpenApiExtensionResolver.java:144)- (Ignores) Failed to read Markdown files,Error Message:class path resource [markdowns/] cannot be resolved to URL because it does not exist 
+2022-05-27 15:53:52,362 WARN (SensitiveUtils.java:53)- 加载敏感词文件失败: null
+2022-05-27 15:53:52,648 INFO (WebMvcPropertySourcedRequestMappingHandlerMapping.java:69)- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-05-27 15:53:52,764 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-27 15:53:52,779 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2022-05-27 15:53:52,864 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,865 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,865 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,865 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,865 WARN (CustomConversions.java:270)- Registering converter from interface org.springframework.data.elasticsearch.core.geo.GeoJson to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,865 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to interface org.springframework.data.elasticsearch.core.geo.GeoJson as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,865 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,865 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,865 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,865 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,865 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,866 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,866 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,866 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,866 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,866 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,866 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,866 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,866 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,866 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:52,909 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'taskScheduler'
+2022-05-27 15:53:52,946 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:53:52,959 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8085 (https) with context path '/hjgz/api'
+2022-05-27 15:53:52,960 INFO (DocumentationPluginsBootstrapper.java:93)- Documentation plugins bootstrapped
+2022-05-27 15:53:52,962 INFO (AbstractDocumentationPluginsBootstrapper.java:79)- Found 1 custom documentation plugin(s)
+2022-05-27 15:53:52,980 INFO (ApiListingReferenceScanner.java:44)- Scanning for api listing references
+2022-05-27 15:53:53,039 INFO (StartupInfoLogger.java:61)- Started AppApplication in 1.647 seconds (JVM running for 45.451)
+2022-05-27 15:53:53,049 INFO (ConditionEvaluationDeltaLoggingListener.java:63)- Condition evaluation unchanged
+2022-05-27 15:53:55,583 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'taskScheduler'
+2022-05-27 15:53:55,593 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-27 15:53:56,009 INFO (StartupInfoLogger.java:55)- Starting AppApplication using Java 1.8.0_311 on BadMac.local with PID 12446 (/Users/weiyi/ProjectsDocument/IdeaProjects/hjgz/app/target/classes started by weiyi in /Users/weiyi/ProjectsDocument/IdeaProjects/hjgz)
+2022-05-27 15:53:56,013 INFO (SpringApplication.java:664)- The following profiles are active: pro
+2022-05-27 15:53:56,442 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:53:56,446 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-05-27 15:53:56,454 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 8 ms. Found 0 Elasticsearch repository interfaces.
+2022-05-27 15:53:56,455 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:53:56,456 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-05-27 15:53:56,459 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-05-27 15:53:56,462 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-27 15:53:56,462 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-27 15:53:56,465 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2022-05-27 15:53:56,707 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8085 (https)
+2022-05-27 15:53:56,709 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:53:56,710 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-05-27 15:53:56,710 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-27 15:53:56,721 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-05-27 15:53:56,722 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 674 ms
+2022-05-27 15:53:56,748 WARN (OpenApiExtensionResolver.java:144)- (Ignores) Failed to read Markdown files,Error Message:class path resource [markdowns/] cannot be resolved to URL because it does not exist 
+2022-05-27 15:53:56,770 WARN (SensitiveUtils.java:53)- 加载敏感词文件失败: null
+2022-05-27 15:53:57,007 INFO (WebMvcPropertySourcedRequestMappingHandlerMapping.java:69)- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-05-27 15:53:57,113 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-27 15:53:57,132 INFO (OptionalLiveReloadServer.java:58)- LiveReload server is running on port 35729
+2022-05-27 15:53:57,206 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,224 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,225 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,225 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,225 WARN (CustomConversions.java:270)- Registering converter from interface org.springframework.data.elasticsearch.core.geo.GeoJson to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,225 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to interface org.springframework.data.elasticsearch.core.geo.GeoJson as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,225 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,226 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,226 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,226 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,227 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,228 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,228 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,228 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,228 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,228 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,228 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,228 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,229 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,229 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-27 15:53:57,270 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'taskScheduler'
+2022-05-27 15:53:57,310 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["https-jsse-nio-8085"]
+2022-05-27 15:53:57,323 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8085 (https) with context path '/hjgz/api'
+2022-05-27 15:53:57,324 INFO (DocumentationPluginsBootstrapper.java:93)- Documentation plugins bootstrapped
+2022-05-27 15:53:57,326 INFO (AbstractDocumentationPluginsBootstrapper.java:79)- Found 1 custom documentation plugin(s)
+2022-05-27 15:53:57,335 INFO (ApiListingReferenceScanner.java:44)- Scanning for api listing references
+2022-05-27 15:53:57,393 INFO (StartupInfoLogger.java:61)- Started AppApplication in 1.555 seconds (JVM running for 49.805)
+2022-05-27 15:53:57,394 INFO (ConditionEvaluationDeltaLoggingListener.java:63)- Condition evaluation unchanged
+2022-05-27 15:57:23,179 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'taskScheduler'
+2022-05-27 15:57:23,187 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'applicationTaskExecutor'

@@ -34,7 +34,11 @@ public class Level implements Serializable {
 
     private Integer exp=0;
 
+    private Integer yesterdayExp=0;
+
     private String ipAddress;
+
+    private String ipSource;
 
     private LocalDateTime signInTime;
 }

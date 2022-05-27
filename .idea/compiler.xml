@@ -9,7 +9,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="app" />
-        <module name="lib-auth" />
         <module name="module-generator" />
         <module name="module-hjgz" />
         <module name="demo" />
@@ -18,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
+      <module name="lib-auth" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

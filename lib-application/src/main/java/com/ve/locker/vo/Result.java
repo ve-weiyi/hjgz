@@ -74,6 +74,11 @@ public class Result<T> {
         return restResult(false, null, code, message);
     }
 
+    public static <T> Result<T> fail(Integer code,T data, String message) {
+        return restResult(false, data, code, message);
+    }
+
+
     private static <T> Result<T> restResult(Boolean flag, String message) {
         Result<T> apiResult = new Result<>();
         apiResult.setFlag(flag);

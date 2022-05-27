@@ -4,6 +4,7 @@ package com.ve.locker.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.github.xiaoymin.knife4j.annotations.ApiOperationSupport;
+import com.ve.locker.constant.LevelType;
 import com.ve.locker.entity.Level;
 import com.ve.locker.service.ILevelService;
 import com.ve.locker.util.IpUtils;
@@ -64,9 +65,11 @@ public class LevelController {
             return Result.fail(level,"您今天已签到，请不要重复签到哦Σ(oﾟдﾟoﾉ)");
         }
 
-        level.setExp(level.getExp()+3);
+        level.setYesterdayExp(level.getExp());
+        level.setExp(level.getExp()+ LevelType.EXP_SIGN_IN);
         level.setSignInTime(LocalDateTime.now());
         level.setIpAddress(IpUtils.getIpAddress(request));
+        level.setIpSource(IpUtils.getIpSource(IpUtils.getIpAddress(request)));
 
         LogUtil.println(level.toString());
         boolean status= levelService.saveOrUpdate(level);
@@ -92,7 +95,17 @@ public class LevelController {
             level=new Level();
             level.setId(id);
         }
-        level.setExp(level.getExp()+count);
+
+
+        if(level.getExp()-level.getYesterdayExp()>=LevelType.EXP_DAY_MAX){
+
+            return Result.fail(511,new LevelVO(level),"您今日获取的经验值已达上限。");
+        }else if(level.getExp()+count-level.getYesterdayExp()>=LevelType.EXP_DAY_MAX){
+            level.setExp(level.getYesterdayExp()+LevelType.EXP_DAY_MAX);
+        }else {
+            level.setExp(level.getExp()+count);
+        }
+
         LogUtil.println(level.toString());
         boolean status= levelService.saveOrUpdate(level);
         

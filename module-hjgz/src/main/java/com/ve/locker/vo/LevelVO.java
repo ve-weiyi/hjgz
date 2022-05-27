@@ -35,14 +35,17 @@ public class LevelVO {
     private Integer id;
 
     private Integer exp=0;
+    private Integer yesterdayExp=0;
 
     private Integer rank=1;
+
     private Integer nextLevel=50;
 
 
     public LevelVO(Level level) {
         this.id = level.getId();
         this.exp = level.getExp();
+        this.yesterdayExp=level.getYesterdayExp();
         int exp = level.getExp();
 
         if (exp >= LevelEnum.LEVEL_10.getLowExp()) {

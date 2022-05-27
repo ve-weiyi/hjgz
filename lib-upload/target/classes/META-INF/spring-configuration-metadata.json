@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "upload.oss",
+      "type": "com.ve.locker.config.OssConfigProperties",
+      "sourceType": "com.ve.locker.config.OssConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "upload.oss.access-key-id",
+      "type": "java.lang.String",
+      "description": "访问密钥id",
+      "sourceType": "com.ve.locker.config.OssConfigProperties"
+    },
+    {
+      "name": "upload.oss.access-key-secret",
+      "type": "java.lang.String",
+      "description": "访问密钥密码",
+      "sourceType": "com.ve.locker.config.OssConfigProperties"
+    },
+    {
+      "name": "upload.oss.bucket-name",
+      "type": "java.lang.String",
+      "description": "bucket名称",
+      "sourceType": "com.ve.locker.config.OssConfigProperties"
+    },
+    {
+      "name": "upload.oss.endpoint",
+      "type": "java.lang.String",
+      "description": "终点",
+      "sourceType": "com.ve.locker.config.OssConfigProperties"
+    },
+    {
+      "name": "upload.oss.url",
+      "type": "java.lang.String",
+      "description": "oss域名",
+      "sourceType": "com.ve.locker.config.OssConfigProperties"
+    }
+  ],
+  "hints": []
+}

@@ -11,6 +11,7 @@ import com.ve.locker.entity.UserInfo;
 import com.ve.locker.entity.UserRole;
 import com.ve.locker.enums.FilePathEnum;
 import com.ve.locker.exception.BizException;
+import com.ve.locker.service.RedisService;
 import com.ve.locker.service.UserInfoService;
 import com.ve.locker.service.UserRoleService;
 import com.ve.locker.strategy.context.UploadStrategyContext;
