@@ -15,7 +15,7 @@ public enum LevelEnum {
     /**
      * 等级1 0~4
      */
-    LEVEL_1(1,0,50),
+    LEVEL_1(1,1,50),
     LEVEL_2(2,50,150),
     LEVEL_3(3,150,500),
     LEVEL_4(4,500,1000),

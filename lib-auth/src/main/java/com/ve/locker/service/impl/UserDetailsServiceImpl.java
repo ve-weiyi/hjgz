@@ -10,6 +10,7 @@ import com.ve.locker.entity.UserAuth;
 import com.ve.locker.entity.UserInfo;
 import com.ve.locker.enums.ZoneEnum;
 import com.ve.locker.exception.BizException;
+import com.ve.locker.service.RedisService;
 import com.ve.locker.util.IpUtils;
 import eu.bitwalker.useragentutils.UserAgent;
 import org.springframework.beans.factory.annotation.Autowired;

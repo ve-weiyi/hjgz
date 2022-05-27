@@ -2,6 +2,8 @@ package com.ve.locker.util;
 
 import org.slf4j.LoggerFactory;
 
+import java.util.Arrays;
+
 /**
  * @Description hello word!
  *  logback使用日志工具类静态方法打印日志
@@ -34,7 +36,7 @@ public class LogUtil {
     }
 
     public static void println(Object... objects) {
-        System.out.println("-->> "+objects);
+        System.out.println("-->> "+ Arrays.toString(objects));
     }
 
     public static void println() {

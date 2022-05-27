@@ -4,11 +4,14 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+import java.time.LocalDateTime;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+import org.joda.time.DateTime;
 
 /**
  * <p>
@@ -21,7 +24,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("pre_level")
+@TableName("pre_user_level")
 @ApiModel(value="Level对象", description="")
 public class Level implements Serializable {
 
@@ -31,5 +34,7 @@ public class Level implements Serializable {
 
     private Integer exp=0;
 
+    private String ipAddress;
 
+    private LocalDateTime signInTime;
 }

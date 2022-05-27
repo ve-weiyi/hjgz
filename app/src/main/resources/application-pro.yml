@@ -3,8 +3,8 @@ server:
   port: 8085
   ssl:
     #   classpath是resources目录,
-    key-store: classpath:jks/ve77.cn.jks
-    key-store-password: ve77.cn
+    key-store: classpath:jks/chat.hjgz.cloud.jks
+    key-store-password: wd8872680
     key-store-type: jks
 
   servlet:

@@ -48,7 +48,7 @@
 //public class TestController {
 //
 //    @ApiOperationSupport(order = 1)
-//    @GetMapping("")
+//    @GetMapping("test")
 //    public String test() {
 //        return "Hello World";
 //    }
