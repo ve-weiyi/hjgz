@@ -110,7 +110,7 @@ public class LocalDateUtil {
     }
 
     /**
-     * 昨天 字符串 格式 yyyyMMdd
+     *  字符串 格式 yyyyMMdd
      * @return
      *
      * @author zhaoyang10

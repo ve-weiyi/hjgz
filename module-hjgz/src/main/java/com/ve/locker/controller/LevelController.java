@@ -96,14 +96,12 @@ public class LevelController {
             level.setId(id);
         }
 
-
-        if(level.getExp()-level.getYesterdayExp()>=LevelType.EXP_DAY_MAX){
-
-            return Result.fail(511,new LevelVO(level),"您今日获取的经验值已达上限。");
-        }else if(level.getExp()+count-level.getYesterdayExp()>=LevelType.EXP_DAY_MAX){
+        if(level.getExp()+count-level.getYesterdayExp()>=LevelType.EXP_DAY_MAX){
             level.setExp(level.getYesterdayExp()+LevelType.EXP_DAY_MAX);
-        }else {
+        }else if(level.getExp()-level.getYesterdayExp()<LevelType.EXP_DAY_MAX){
             level.setExp(level.getExp()+count);
+        }else {
+            return Result.fail(511,new LevelVO(level),"您今日获取的经验值已达上限。");
         }
 
         LogUtil.println(level.toString());

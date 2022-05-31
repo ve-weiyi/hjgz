@@ -10,12 +10,15 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.ve.locker.entity.Level;
 import com.ve.locker.enums.LevelEnum;
+import com.ve.locker.util.LogUtil;
+import com.ve.locker.utils.LocalDateUtil;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.joda.time.LocalDateTime;
 
 import javax.validation.constraints.NotBlank;
 
@@ -36,6 +39,7 @@ public class LevelVO {
 
     private Integer exp=0;
     private Integer yesterdayExp=0;
+    private Integer isSignedIn=0;
 
     private Integer rank=1;
 
@@ -91,6 +95,17 @@ public class LevelVO {
         }else {
             rank = LevelEnum.LEVEL_0.getLevel();
             nextLevel=LevelEnum.LEVEL_0.getNextExp();
+        }
+
+//        String signDay=level.getSignInTime().toString();
+//        String nowDay=LocalDateTime.now().toString();
+//        LogUtil.println(signDay.substring(0,10));
+//        LogUtil.println(nowDay.substring(0,10));
+        if(level.getSignInTime().toString().substring(0, 10).equals(LocalDateTime.now().toString().substring(0, 10)))
+        {
+            this.isSignedIn=1;
+        }else{
+            this.isSignedIn=0;
         }
     }
 }
